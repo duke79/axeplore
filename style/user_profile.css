@@ -1,0 +1,303 @@
+#main-bars-container {
+    width: 1265px;
+}
+
+.dashboard-display {
+    margin: 50px 0 0 0;
+    display: flex;
+    height: 360px;
+    background-position-y: 45%;
+}
+
+#cover-back-shadow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 50px;
+    background-position-y: 50%;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    z-index: -1;
+}
+
+#profile-header {
+    height: 310px;
+    width: 100%;
+    padding: 0 0 0 2%;
+    box-sizing: border-box;
+    background-color: rgba(85, 85, 85, 0.9);
+    background: rgba(80, 80, 80, 0.7);
+}
+
+#profile-header-face {
+    position: absolute;
+    top: 55px;
+    border-radius: 1px;
+    float: left;
+    width: 175px;
+    color: rgb(100, 100, 100);
+    border: 1px solid;
+    box-shadow: 0px 0px 20px -5px black;
+    height: 175px;
+    background-image: url('http://localhost/data/Graphix/Photos/1797599_774273485918129_8525587142800305751_n.jpg');
+    background-image: url('/vverse/img/dp/2.gif');
+    background-size: cover;
+    z-index: 1;
+}
+
+#profile-header-canvas {
+    position: relative;
+    width: 65%;
+    float: left;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px -5px black;
+    box-shadow: 0px 0px 30px 0px rgb(51, 51, 51);
+    background-position-y: -140px;
+}
+
+#profile-header-canvas,
+#cover-back-shadow {
+    background-image: url('http://localhost/data/Graphix/Photos/FWell/11211552_10153310410784038_69286674_o-001.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Chosen/lamborghini_aventador_lp_700_4-1366x768.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Pack3/failure_2-wallpaper-1920x1080.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Pack3/london_night_2-wallpaper-1920x1080.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Pack3/the_running_man-wallpaper-1920x1080.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Pack3/aegon-wallpaper-1920x1080.jpg');
+    background-image: url('http://localhost/data/Graphix/Walls%20J14/Chosen/BingWallpaper-2015-04-05.jpg');
+    background-size: cover;
+}
+
+#profile-user-name {
+    display: block;
+    bottom: 18px;
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    left: 0px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, .85);
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div#head-karma-meter {
+    float: right;
+    width: 25%;
+}
+
+#profile-header-canvas,
+div#head-karma-meter {
+    height: 310px;
+}
+
+ul.basic-header-info {
+    padding: 0 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    position: relative;
+}
+
+.basic-header-info li {
+    line-height: 30px;
+    margin-bottom: 1px;
+}
+
+.basic-header-info span,
+.basic-header-info a {
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: top;
+}
+
+.left-bhi-box {
+    width: 25px;
+    text-align: center;
+    margin-right: 5px;
+    color: rgb(200, 200, 200);
+}
+
+.right-bhi-box {
+    color: rgb(220, 220, 220);
+}
+
+.basic-header-info a:hover {
+    text-decoration: underline;
+}
+
+span.user-head-status {
+    background-color: rgba(150, 150, 150, 0.18);
+    padding: 15px;
+    margin-top: 5px;
+    line-height: initial;
+}
+
+.prof-hor-navbar {
+    height: 50px;
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 0px 75px;
+    box-sizing: border-box;
+}
+
+.prof-hor-navbar li {
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li.phn-blocks {
+    display: block;
+    height: inherit;
+    float: left;
+    vertical-align: middle;
+    line-height: 50px;
+    color: rgb(100, 100, 100);
+}
+
+li.phn-blocks.current-chapter,
+li.phn-blocks:hover {
+    box-sizing: border-box;
+    border-bottom: 5px solid;
+}
+
+li.social-relation-ops:hover {
+    background-color: rgb(0, 200, 250);
+    color: rgb(90, 90, 90);
+    background-color: rgb(50, 150, 200);
+    background-color: rgb(0, 175, 200);
+    background-color: rgb(0, 175, 255);
+    color: white;
+}
+
+.social-big-count {
+    font-size: 18px;
+    top: -2px;
+    vertical-align: inherit;
+    position: relative;
+}
+
+li.social-relation-ops {
+    float: right;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 1px;
+    height: 40px;
+    line-height: 40px;
+    top: 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.social-relation-ops span {
+    display: inline-block;
+}
+
+ul.social-links {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+li.social-links {
+    color: rgb(154, 154, 154);
+    line-height: 50px;
+    width: inherit;
+    text-align: center;
+}
+
+li.social-links:hover {
+    cursor: pointer;
+    background-color: rgb(215, 215, 215);
+}
+
+div#mid-Feed-Endless {}
+
+ul.right-side-container.verticalBars {
+    width: 440px;
+}
+
+.white-tiles {
+    margin-left: 0;
+}
+
+li.white-tiles.dynamic-tile {
+    width: 100%;
+    float: right;
+    height: 466px;
+}
+
+.global-vid-trends>li {
+    height: 70px;
+    padding: 7px;
+    color: rgb(100, 100, 100);
+    border-left: 5px solid rgba(44, 45, 45, 0);
+    font-size: 14px;
+}
+
+.global-vid-trends>li:hover,
+.global-vid-trends>li.playingNow {
+    background: rgb(225, 225, 225);
+}
+
+span.thumbLen {
+    position: relative;
+    width: 125px;
+    height: inherit;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+img.item_cover {
+    width: inherit;
+    position: relative;
+    top: -12px;
+}
+
+span.vidLength {
+    position: absolute;
+    right: 0;
+    padding: 0 3px;
+    bottom: 0;
+    color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, .8);
+    /*crimson;*/
+}
+
+div#audiojs_wrapper0 {
+    width: 35px;
+    background-image: none;
+    background: rgba(105, 105, 105, 0.5);
+    position: absolute;
+    bottom: 22px;
+    left: -50px;
+    height: 35px;
+    overflow: hidden;
+}
+
+li.social-relation-ops,
+a.right-bhi-box,
+.fa-toggle-on,
+.post-author-username,
+li.performed,
+.social-big-count {
+    color: rgb(50, 150, 200);
+    color: rgb(0, 175, 200);
+    color: rgb(0, 175, 255);
+}
+
+li.phn-blocks.current-chapter,
+li.phn-blocks:hover {
+    border-color: rgb(50, 150, 200);
+    border-color: rgb(0, 175, 200);
+    border-color: rgb(0, 175, 255);
+}

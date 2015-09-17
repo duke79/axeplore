@@ -1,0 +1,25 @@
+#dicovery-header li {
+    float: left;
+    padding: 0 5px;
+    line-height: 38px;
+    text-align: center;
+    min-width: 40px;
+    cursor: pointer;
+    color: #7B7B7B;
+    margin: 0 1px;
+    background-color: #EFEFEF;
+}
+
+ul#dicovery-header {
+    position: relative;
+    left: 241px;
+    margin-bottom: 15px;
+    padding: 6px;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    width: 1047px;
+    background-color: #E0E0E0;
+    display: flex;
+    border-radius: 1px;
+}

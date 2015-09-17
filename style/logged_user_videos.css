@@ -1,0 +1,84 @@
+#main-bars-container {
+    width: 1265px;
+}
+
+div#mid-Feed-Endless {}
+
+.yube-feedvid-thumb {
+    position: relative;
+    width: 100%;
+    /*  width: 102%;
+    left: -1%; */
+    padding-bottom: 55%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    background-color: black;
+    background-position: 0;
+    background-size: cover;
+    /*box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);*/
+}
+
+.yube-feedvid-thumb>span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding-top: 21%;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px rgb(32, 32, 32);
+}
+
+ul.right-side-container.verticalBars {
+    width: 440px;
+    margin-left: 0;
+}
+
+.white-tiles {
+    margin-left: 0;
+}
+
+li.white-tiles.dynamic-tile {
+    width: 100%;
+    float: right;
+    height: auto;
+}
+
+.global-vid-trends>li {
+    height: 70px;
+    padding: 4px 8px;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+}
+
+.global-vid-trends>li:hover,
+.global-vid-trends>li.playingNow {
+    background: rgb(225, 225, 225);
+}
+
+span.thumbLen {
+    position: relative;
+    width: 125px;
+    height: inherit;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+img.item_cover {
+    width: inherit;
+    position: relative;
+    top: -12px;
+}
+
+span.vidLength {
+    position: absolute;
+    right: 0;
+    padding: 0 3px;
+    bottom: 0;
+    color: rgb(240, 240, 240);
+    background-color: rgba(0, 0, 0, .8);
+    /*crimson;*/
+}

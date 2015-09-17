@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteRule ^(\w+)/?(\w+)?/?$ ?id=$1&q=$2 [L]
+
+
+
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 103.26.219.19
